@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<!-------------doctype name------->
+<html>
+    <head>
+
+        <title>Hight Speed Typer Game</title>
+
+    </head>
+    <link rel="stylesheet" href="style.css">
+    <body>
+        <form id="settings-form">
+            <label for="difficulty">Difficulty</label>
+            <select id='difficulty'>
+                <option>Easy</option>
+                <option>Medium</option>
+                <option>Hard</option>
+            </select>
+        </form>
+        <div class="container">
+        <h2> 😁 Speed Typer 😁 </h2>
+        <small>Type the following:</small>
+        <h1 id="word">  </h1>
+        <input id="text" type="text" placeholder="Type the word here..." 
+        autocomplete="off" autofocus
+        />
+        <p>Time left:<span id="time">10s</span></p>
+        <p> Score:<span id="score"> 0 </span></p>
+        <div class="end-game-container" id="end-game-container"></div>
+        </div>
+       
+        <script src="script.js"></script>
+        
+    </body>
+</html>
